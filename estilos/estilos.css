@@ -10,8 +10,11 @@
     height: 5.5vh;
     background-color: #222222;
     display: flex;
+    justify-content:space-between;
+    padding: 0 13% 0 13%;
 
 }
+
 .numeroTelefono{
     width: 205px;
     height: 100%;
@@ -20,10 +23,12 @@
     justify-content: center;
     align-items: center;
     color: white;
-    margin-left: 58px;
     font-size: large;
     font-family: Roboto, sans-serif;
     font-size: 1.1rem;
+}
+.numeroTelefono:hover{
+    cursor: pointer;
 }
 .tel{
     height: 50%;
@@ -39,5 +44,14 @@
     align-items: center;
     color: white;
     font-family: Roboto, sans-serif;
+    
 
+}
+.logoPersona {
+    height: 50%;
+    margin-right: 5px;
+}
+.acceso:hover {
+    background-color: #D35400;
+    cursor: pointer;
 }
