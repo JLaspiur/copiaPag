@@ -9,6 +9,8 @@
     width: 100%;
     height: 5.5vh;
     background-color: #222222;
+    display: flex;
+
 }
 .numeroTelefono{
     width: 205px;
@@ -29,6 +31,13 @@
 }
 .acceso {
     height: 100%;
-    width: 200px;
-    background-color:aliceblue;
+    width: 180px;
+    background-color:#f39c12;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Roboto, sans-serif;
+
 }
