@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.headerTelefono {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+}
