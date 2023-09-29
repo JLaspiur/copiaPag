@@ -68,7 +68,7 @@
 }
 
 .listaMenu{
-background-color: #D35400;    
+background-color:#222222;    
 display: flex;
 list-style: none;
 }
@@ -80,7 +80,7 @@ padding: 10px;
 .listaMenu li a{
     text-decoration: none;
     color: white;
-    font-family: inherit;
+    font-family: Roboto;
     font-weight: bold;
     font-size: 0.9rem;  
   
