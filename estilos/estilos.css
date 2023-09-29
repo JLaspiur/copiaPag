@@ -84,6 +84,10 @@ padding: 10px;
 }
 
 .listaMenu li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
     text-decoration: none;
     color: white;
     font-family: Roboto;
@@ -99,6 +103,17 @@ padding: 10px;
     color: #1e73be;
     
 }
+.listaMenu li a:hover> .flecha {
+    border-top:solid 1.5px #1e73be; 
+    border-right:solid 1.5px #1e73be;
+    
+}
 
-
+.flecha{
+    height: 5px;
+    width: 5px;
+    border-top:solid 1.5px white; 
+    border-right:solid 1.5px white; 
+    transform: rotate(135deg);
+}
 
