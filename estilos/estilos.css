@@ -69,11 +69,11 @@
 
 .listaMenu{
 background-color:#222222;    
-display: flex;
 list-style: none;
 }
 
 .listaMenu li {
+display: inline-block;    
 padding: 10px;
 }
 
@@ -84,4 +84,7 @@ padding: 10px;
     font-weight: bold;
     font-size: 0.9rem;  
   
+}
+.miniLupa{
+    height: 17px;
 }
