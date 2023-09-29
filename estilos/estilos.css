@@ -59,8 +59,26 @@
     background-color: aqua;
     width: 100%;
     height: 12.5vh;
+    display: flex;
+    align-items: center;
 }
 .logoEmpresa {
     height: 100%;
     
+}
+
+.listaMenu{
+background-color: #D35400;    
+display: flex;
+list-style: none;
+}
+
+.listaMenu li {
+padding: 10px;
+}
+
+.listaMenu li a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto, sans-serif;
 }
