@@ -56,20 +56,26 @@
     cursor: pointer;
 }
 .headerMenu {
-    background-color: aqua;
+    background-color:#222222;
     width: 100%;
-    height: 12.5vh;
+    height: 13vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 12% 0 9.5%;
 }
 .logoEmpresa {
     height: 100%;
-    
+}
+.logoEmpresa:hover{
+    cursor: pointer;
 }
 
 .listaMenu{
 background-color:#222222;    
 list-style: none;
+
+
 }
 
 .listaMenu li {
@@ -88,3 +94,11 @@ padding: 10px;
 .miniLupa{
     height: 17px;
 }
+
+.listaMenu li a:hover {
+    color: #1e73be;
+    
+}
+
+
+
