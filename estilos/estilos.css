@@ -55,3 +55,12 @@
     background-color: #D35400;
     cursor: pointer;
 }
+.headerMenu {
+    background-color: aqua;
+    width: 100%;
+    height: 12.5vh;
+}
+.logoEmpresa {
+    height: 100%;
+    
+}
